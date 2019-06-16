@@ -1,0 +1,22 @@
+{
+  "name": "access",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "* **Author:** Faizaan Chishtie - [github](https://github.com/FaizChishtie), [linkedin](linkedin.com/in/fchishtie/)",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizChishtie/access-js.git"
+  },
+  "keywords": [
+    "accessibility"
+  ],
+  "author": "Faizaan Chishtie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaizChishtie/access-js/issues"
+  },
+  "homepage": "https://github.com/FaizChishtie/access-js#readme"
+}
