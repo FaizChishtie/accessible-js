@@ -1,4 +1,5 @@
-![alt text](https://github.com/FaizChishtie/access-js/blob/master/docs/logo.png "access-js Logo")
+<img src="https://github.com/FaizChishtie/access-js/blob/master/docs/logo.png" 
+alt="access-js Logo" width="100" height="100"/>
 
 # Documentation
 
