@@ -1,5 +1,7 @@
 # access-js
 
+[![Build Status](https://travis-ci.org/FaizChishtie/access-js.svg?branch=master)](https://travis-ci.org/FaizChishtie/access-js)
+
 **Author:** Faizaan Chishtie
 
 **Last Modified**: 7/15/2019
