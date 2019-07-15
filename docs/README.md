@@ -3,7 +3,9 @@ alt="access-js Logo" width="100" height="100"/>
 
 # Documentation
 
---
+## Links
+* [Contribution Guide](https://github.com/FaizChishtie/access-js/blob/master/CONTRIBUTING.md)
+
 
 # References
 
