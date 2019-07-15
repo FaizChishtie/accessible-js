@@ -24,6 +24,7 @@ git branch
 ```
 
 **Commit your changes and push your changes to GitHub**
+
 Some quick commands to help you get started!
 
 ```
