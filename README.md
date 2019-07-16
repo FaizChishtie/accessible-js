@@ -6,10 +6,19 @@
 
 **Last Modified**: 7/15/2019
 
-# Description: 
+## Description: 
+
 access-js is a node module that allows developers to easily make their website accessible!
 
-# Team: 
+## Installation:
+
+`npm install access-js`
+
+## Testing:
+
+  `npm test`
+
+## Team: 
 
 Developers | GitHub | LinkedIn
 --- | --- | ---

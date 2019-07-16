@@ -1,10 +1,13 @@
 {
-  "name": "access",
-  "version": "1.0.0",
+  "name": "access-js",
+  "version": "0.1.0",
+  "description": "access-js is a node module that allows developers to easily make their website accessible!",
   "main": "index.js",
-  "description": "* **Author:** Faizaan Chishtie - [github](https://github.com/FaizChishtie), [linkedin](linkedin.com/in/fchishtie/)",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "test": "start"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -13,10 +16,17 @@
   "keywords": [
     "accessibility"
   ],
-  "author": "Faizaan Chishtie",
-  "license": "ISC",
+  "author": "Faizaan Chishtie <faizchishtie@gmail.com> (https://github.com/FaizChishtie)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FaizChishtie/access-js/issues"
   },
-  "homepage": "https://github.com/FaizChishtie/access-js#readme"
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "homepage": "https://github.com/FaizChishtie/access-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
 }
