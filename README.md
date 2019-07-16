@@ -1,10 +1,12 @@
-# access-js
+# accessible-js
 
 [![Build Status](https://travis-ci.org/FaizChishtie/accessible-js.svg?branch=master)](https://travis-ci.org/FaizChishtie/accesssible-js)
 
+### [npm](https://www.npmjs.com/package/accessible-js)
+
 **Author:** Faizaan Chishtie
 
-**Last Modified**: 7/15/2019
+**Last Modified:** 7/15/2019
 
 ## Description: 
 
