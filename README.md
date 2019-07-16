@@ -1,6 +1,6 @@
 # access-js
 
-[![Build Status](https://travis-ci.org/FaizChishtie/access-js.svg?branch=master)](https://travis-ci.org/FaizChishtie/access-js)
+[![Build Status](https://travis-ci.org/FaizChishtie/accessible-js.svg?branch=master)](https://travis-ci.org/FaizChishtie/accesssible-js)
 
 **Author:** Faizaan Chishtie
 
@@ -8,11 +8,11 @@
 
 ## Description: 
 
-access-js is a node module that allows developers to easily make their website accessible!
+accessible-js is a node module that allows developers to easily make their website accessible!
 
 ## Installation:
 
-`npm install access-js`
+`npm install accessible-js`
 
 ## Testing:
 
