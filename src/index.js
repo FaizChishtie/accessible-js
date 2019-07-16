@@ -9,5 +9,5 @@
  * @return {string}
  */
 module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
+  return number.toLocaleString(locale);
 };
