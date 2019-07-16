@@ -15,7 +15,7 @@ It also makes it easier to isolate your change from incoming changes from the or
 ```
 // after forking: 
 
-git clone https://github.com/YourUserName/access-js.git
+git clone https://github.com/YourUserName/accessible-js.git
 git pull origin master
 git checkout -b my-guideline-abiding-branch-name
 git branch
