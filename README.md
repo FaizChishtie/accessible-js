@@ -1,4 +1,4 @@
-# access-js
+# accessible-js
 
 [![Build Status](https://travis-ci.org/FaizChishtie/accessible-js.svg?branch=master)](https://travis-ci.org/FaizChishtie/accesssible-js)
 
