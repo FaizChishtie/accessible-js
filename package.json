@@ -1,6 +1,6 @@
 {
   "name": "accessible-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "accessible-js is a node module that allows developers to easily make their website accessible!",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,13 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.5",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4"
   }
