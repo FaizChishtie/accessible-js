@@ -1,6 +1,7 @@
 # accessible-js
 
 [![Build Status](https://travis-ci.org/FaizChishtie/accessible-js.svg?branch=master)](https://travis-ci.org/FaizChishtie/accesssible-js)
+[![Coverage Status](https://coveralls.io/repos/github/FaizChishtie/accessible-js/badge.svg?branch=master)](https://coveralls.io/github/FaizChishtie/accessible-js?branch=master)
 
 ### [npm](https://www.npmjs.com/package/accessible-js)
 
