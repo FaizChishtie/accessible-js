@@ -1,10 +1,10 @@
-<img src="https://github.com/FaizChishtie/access-js/blob/master/docs/logo.png" 
-alt="access-js Logo" width="100" height="100"/>
+<img src="logo.png" 
+alt="accessible-js Logo" width="100" height="100"/>
 
 # Documentation
 
 ## Links
-* [Contribution Guide](https://github.com/FaizChishtie/access-js/blob/master/CONTRIBUTING.md)
+* [Contribution Guide](https://github.com/FaizChishtie/accessible-js/blob/master/CONTRIBUTING.md)
 
 
 # References
