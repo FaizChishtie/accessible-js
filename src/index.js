@@ -1,13 +1,11 @@
 'use strict';
 
-// test function
+// export all public functions here
 
-/**
- * Adds commas to a number
- * @param {number} number
- * @param {string} locale
- * @return {string}
- */
-module.exports = function(number, locale) {
-  return number.toLocaleString(locale);
-};
+const hearing = require('../src/hearing/index');
+const vision = require('../src/vision/index');
+
+module.exports = {
+    hearing,
+    vision,
+}
