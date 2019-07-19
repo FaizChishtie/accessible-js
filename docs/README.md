@@ -5,6 +5,7 @@ alt="accessible-js Logo" width="100" height="100"/>
 
 ## Links
 * [Contribution Guide](https://github.com/FaizChishtie/accessible-js/blob/master/CONTRIBUTING.md)
+* [Development Plan](https://github.com/FaizChishtie/accessible-js/blob/master/docs/development.md)
 
 
 # References
