@@ -2,10 +2,8 @@
 
 // export all public functions here
 
-const hearing = require('../src/hearing/index');
-const vision = require('../src/vision/index');
+const tools = require('../src/tools/index');
 
 module.exports = {
-    hearing,
-    vision,
+    tools,
 }
