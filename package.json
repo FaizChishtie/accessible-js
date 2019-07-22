@@ -40,5 +40,8 @@
     "eslint-plugin-standard": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "incremental-dom": "^0.6.0"
   }
 }
