@@ -6,7 +6,7 @@ const { JSDOM } = jsdom;
 
 class DOM {
     constructor(htmlDOM) {
-        this.dom = new JSDOM(htmlDOM);
+        this.dom = new JSDOM(htmlDOM, {includeNodeLocations: true});
         this.document = this.dom.window.document;
     }
 
