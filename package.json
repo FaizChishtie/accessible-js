@@ -42,6 +42,7 @@
     "mocha": "^6.1.4"
   },
   "dependencies": {
+    "html-parser": "^0.11.0",
     "incremental-dom": "^0.6.0"
   }
 }
