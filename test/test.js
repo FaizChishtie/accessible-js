@@ -2,8 +2,8 @@
 
 var expect = require('chai').expect;
 
-const hearing = require('../src/index').hearing;
-const vision = require('../src/index').vision;
+const hearing = require('../src/index').tools.hearing;
+const vision = require('../src/index').tools.vision;
 
 // ideally things would be split up
 
