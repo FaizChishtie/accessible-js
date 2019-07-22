@@ -2,8 +2,14 @@
 
 // export all public functions here
 
-const tools = require('../src/tools/index');
+const tools = require('./tools');
+const installation = require('./installation');
+const display = require('./display')
+const utils = require('./utils');
 
 module.exports = {
     tools,
+    installation,
+    display,
+    utils,
 }
