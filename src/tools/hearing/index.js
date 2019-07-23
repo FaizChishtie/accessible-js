@@ -25,6 +25,5 @@ Hearing.parseTags = (dom) => {
 
 }
 module.exports = {
-    readAloud,
-    parseTags
+    Hearing
 }
