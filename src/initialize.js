@@ -29,6 +29,7 @@ const getConfig = (path) => {
         const data = JSON.parse(fs.readFileSync(path, 'utf8'));
         updateConfigFromJson(data);
     }
+    // otherwise uses default configuration
 }
 
 module.exports = {
