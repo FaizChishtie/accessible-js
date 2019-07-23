@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec",
+    "test": "node_modules/.bin/mocha --recursive --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "lint": "eslint .",
     "lint-fix": "eslint --fix ."
@@ -40,5 +40,9 @@
     "eslint-plugin-standard": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "incremental-dom": "^0.6.0",
+    "jsdom": "^15.1.1"
   }
 }
