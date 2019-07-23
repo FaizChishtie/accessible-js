@@ -6,9 +6,12 @@ const tools = require('../../../src').tools;
 
 const vision = tools.vision;
 
+// @TODO clayton tests
 describe('test vision functions', () => {
-    it('should return text', () =>{
-        let result = vision.magnify('test');
-        expect(result).to.equal('test');
-    });
+    // it('should return text', () =>{
+    // 	const rawHtml = `<!DOCTYPE html><p>Hello world</p>`;
+    // 	const results = new utils.dom.DOM(rawHtml);
+    //     const result = vision.magnify();
+    //     expect(result).to.equal('test');
+    // });
 });
