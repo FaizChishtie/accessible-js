@@ -1,7 +1,6 @@
 'use strict'
-class Hearing {
+class Hearing {};
 
-;}
 // export all public hearing functions here
 Hearing.handleDataRecieved = (document) => {};
 Hearing.readAloud = (text) => {

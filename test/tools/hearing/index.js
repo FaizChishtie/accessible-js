@@ -7,5 +7,4 @@ const tools = require('../../../src').tools;
 const hearing = tools.hearing;
 
 describe('test hearing functions', () => {
-
 });

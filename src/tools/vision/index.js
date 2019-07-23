@@ -1,5 +1,9 @@
 'use strict'
 
 const magnifier = require('./magnifier');
+const colorblind = require('./colorblind');
 
-module.exports = { magnifier }; 
+module.exports = { 
+    magnifier,
+    colorblind,
+ }; 
