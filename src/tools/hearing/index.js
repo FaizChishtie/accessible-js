@@ -1,8 +1,9 @@
 'use strict'
+class Hearing {};
 
 // export all public hearing functions here
-
-const readAloud = (text) => {
+Hearing.handleDataRecieved = (document) => {};
+Hearing.readAloud = (text) => {
     var msg = new SpeechSynthesisUtterance();
     msg.volume = 1; // 0 to 1
     msg.rate = 1; // 0.1 to 10
@@ -15,6 +16,13 @@ const readAloud = (text) => {
       };
 }
 
+//takes in a dom/set of html elements and parses the content to be all plaintext with no tags
+Hearing.parseTags = (dom) => {
+    var text = "";
+    //TODO
+
+
+}
 module.exports = {
-    readAloud,
+    Hearing
 }
