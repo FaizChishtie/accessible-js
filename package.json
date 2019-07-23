@@ -1,6 +1,6 @@
 {
   "name": "accessible-js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "accessible-js is a node module that allows developers to easily make their website accessible!",
   "main": "index.js",
   "directories": {
