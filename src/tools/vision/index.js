@@ -1,8 +1,5 @@
 'use strict'
 
-const magnify = require("./vision.js")
+const magnifier = require('./magnifier');
 
-
-module.exports = {
-    magnify,
-}
+module.exports = { magnifier }; 
