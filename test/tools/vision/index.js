@@ -11,7 +11,6 @@ describe('test vision functions', () => {
     	const rawHtml = `<!DOCTYPE html><p>Hello world</p>`;
     	const results = new utils.dom.DOM(rawHtml);
         const result = vision.magnify();
-        console.log(result);
         expect(result).to.equal('test');
     });
 });
