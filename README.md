@@ -27,7 +27,6 @@ Developers | GitHub | LinkedIn
 Faizaan Chishtie | [GitHub](https://github.com/FaizChishtie) | [LinkedIn](linkedin.com/in/fchishtie/)
 Ashley Rocha | [GitHub](https://github.com/ashleyrocha) | [LinkedIn](https://www.linkedin.com/in/ashleymrocha/)
 Priyanka Jayaswal | [GitHub](https://github.com/priyankajayaswal1) | [LinkedIn](https://in.linkedin.com/in/priyanka-jayaswal-95059364)
-Nethra Shashikar | [GitHub](https://github.com/Nethracs) |
 Nahom Yimam | [GitHub](https://github.com/nahomyimam) | [LinkedIn](https://www.linkedin.com/in/nahom-yimam-25167a153/)
 Clayton Hebert | [GitHub](https://github.com/jchebert23) | [LinkedIn](https://www.linkedin.com/in/clayton-hebert/)
 Siddarth Rao | [GitHub](https://github.com/ra0s) | [LinkedIn](https://www.linkedin.com/in/siddharth-rao/)
