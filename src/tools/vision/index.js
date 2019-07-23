@@ -1,11 +1,5 @@
 'use strict'
 
-// export all public vision functions here
+const magnifier = require('./magnifier');
 
-const magnify = (block) => {
-    return block;
-}
-
-module.exports = {
-    magnify,
-}
+module.exports = { magnifier }; 
