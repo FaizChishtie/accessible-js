@@ -10,6 +10,9 @@ const readAloud = (text) => {
     msg.text = text;
     msg.lang = 'en-US';
     speechSynthesis.speak(msg);
+    msg.onend = function(e) {
+        console.log('Finished speaking in ' + event.elapsedTime/1000 + ' seconds.');
+      };
 }
 
 module.exports = {
