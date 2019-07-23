@@ -12,6 +12,6 @@ describe('test util functions', () => {
     it('should parse html to dom', () => {
         const rawHtml = `<!DOCTYPE html><p>Hello world</p>`;
         const results = new utils.dom.DOM(rawHtml);
-        expect(results.getAllTagged('p').textContent).to.equal('Hello world');
+        expect(results.getAllTagged('p').item(0).textContent).to.equal('Hello world');
     });
 });
