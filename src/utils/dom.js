@@ -15,7 +15,7 @@ class DOM {
     }
 
     getAllTagged(tag) {
-        return this.document.querySelector(tag);
+        return this.document.querySelectorAll(tag);
     }
 }
 

@@ -11,6 +11,6 @@ describe('test initialize functions', () => {
     it('should initialize webpage', () => {
         initialize.initialize(`<!DOCTYPE html><p>Hello world</p>`);
         expect(GlobalVars.initialized).to.equal(true);
-        expect(GlobalVars.dom.getAllTagged('p').textContent).to.equal('Hello world');
+        expect(GlobalVars.dom.getAllTagged('p').item(0).textContent).to.equal('Hello world');
     });
 });
