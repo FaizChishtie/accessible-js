@@ -8,7 +8,10 @@ const vision = tools.vision;
 
 describe('test vision functions', () => {
     it('should return text', () =>{
-        let result = vision.magnify('test');
+    	const rawHtml = `<!DOCTYPE html><p>Hello world</p>`;
+    	const results = new utils.dom.DOM(rawHtml);
+        const result = vision.magnify();
+        console.log(result);
         expect(result).to.equal('test');
     });
 });
