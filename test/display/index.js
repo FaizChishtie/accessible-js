@@ -14,8 +14,17 @@ describe('test display functions', () => {
         expect(results).to.equal('something');
     });
     it('should set display options', () => {
-        const results = display.setOptions({screenReader: true, contrast: 'high', fontSize: 16});
+        const options = { 
+            vision: {
+                magnifier: false,
+                colorblind: true,
+            },
+            hearing: {
+                screenreader: false,
+            },
+        };
+        const results = display.setOptions(options);
         let parsed = JSON.parse(results);
-        expect(parsed.screenReader+";"+parsed.contrast+";"+parsed.fontSize).to.equal('true;high;16');
+        expect(parsed).to.deep.equal(options);
     });
 });
