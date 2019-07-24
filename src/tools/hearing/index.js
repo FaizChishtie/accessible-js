@@ -2,7 +2,10 @@
 class Hearing {};
 
 // export all public hearing functions here
-Hearing.handleDataRecieved = (document) => { this.parseTags(document); };
+Hearing.handleDataRecieved = (document) => { 
+    const str = Hearing.parseTags(document);
+    Hearing.readAloud(str); 
+};
 Hearing.readAloud = (text) => {
     let msg = new SpeechSynthesisUtterance();
     msg.volume = 1; // 0 to 1
