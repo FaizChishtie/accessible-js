@@ -1,23 +1,18 @@
 #!/usr/bin/env node
 
 const argv = require("yargs").argv;
+const installation = require('../src/installation');
 
-//console.log(argv);
-//console.log(process.args);
-
-if (argv["install"])
-{
-    console.log("Installation trigger")
+if (argv["install"]) {
+    installation.configuration.start();
+    console.log('Installation complete...\nMake sure to initialize accessible-js by importing it and calling apply stamp!');
 }
 
-
-if (argv["remove"])
-{
-    console.log("Remove trigger")
+if (argv["help"]) {
+    console.log("\t--install\t\tInstalls module to a folder");
+    console.log("\t--install\t\Configures module .accessible file within a folder");
 }
 
-
-if (argv["config"])
-{
-    console.log("Config trigger")
+if (argv["config"]) {
+    installation.configuration.start();
 }

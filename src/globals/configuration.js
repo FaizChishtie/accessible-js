@@ -15,7 +15,7 @@ Configuration.developer = {
     hearing: {
         screenreaderSupport: true,
     }
-}
+};
 // store this in cookies
 Configuration.active = { 
     vision: {
@@ -25,7 +25,8 @@ Configuration.active = {
     hearing: {
         screenreader: false,
     },
-}
+};
+Configuration.PATH = null;
 
 const fromJson = (json) => {
     // test if props undefined or not makes spaghetti looking code
@@ -34,6 +35,11 @@ const fromJson = (json) => {
     setEnabled(enabled);
     setDeveloper(developer);
     setActive(active);
+}
+
+const configAsJson = () => {
+    const {enabled, developer, active} = Configuration;
+    return {enabled, developer, active};
 }
 
 const setEnabled = (enabled) => {
@@ -85,6 +91,7 @@ const notUndef = (item) => {
 module.exports = {
     Configuration,
     fromJson,
+    configAsJson,
     setActive,
     setEnabled,
     setDeveloper,
