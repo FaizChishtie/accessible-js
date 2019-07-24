@@ -10,7 +10,7 @@ const updateConfigFromJson = require('./globals/configuration').fromJson;
 
 const { GlobalVars } = globals;
 
-const initialize = async (document, pathToConfig = undefined) => {
+const initialize = async (document, pathToConfig = GlobalVars.configuraton.PATH) => {
     // set vars
     GlobalVars.initialized = true;
     GlobalVars.dom = convertDocument(document);
@@ -31,7 +31,7 @@ const convertDocument = (document) => {
 
 // @TODO test 
 const getConfig = (path) => {
-    if (path) {
+    if (path != null || path != undefined) {
         const data = JSON.parse(fs.readFileSync(path, 'utf8'));
         updateConfigFromJson(data);
     }
