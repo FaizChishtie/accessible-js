@@ -5,15 +5,16 @@ const argv = require("yargs").argv;
 //console.log(argv);
 //console.log(process.args);
 
-if (argv["install"])
-{
+if (argv["install"]) {
     console.log("Installation trigger")
 }
 
+if (argv["help"]) {
 
-if (argv["remove"])
-{
-    console.log("Remove trigger")
+}
+
+if (argv["remove"]) {
+    
 }
 
 

@@ -2,6 +2,8 @@
 
 // on install do this script
 
+const utils = require('./utils');
+
 const install = () => {
     onComplete();
     return true;
@@ -13,4 +15,5 @@ const onComplete = () => {
 
 module.exports = { 
     install,
+    utils
 }
