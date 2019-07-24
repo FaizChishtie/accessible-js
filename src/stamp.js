@@ -10,7 +10,6 @@ const prependJSDOM = (dom, htmlFile) => {
 const stamp = JSDOM.fromFile(window.location)
 .then(dom => {
     prependJSDOM(dom, buttonFile);
-    console.log(dom.serialize());
     initialize.initialize(dom.window.document);
 });
 
