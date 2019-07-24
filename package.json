@@ -1,8 +1,8 @@
 {
   "name": "accessible-js",
-  "version": "0.1.6",
+  "version": "0.1.5",
   "description": "accessible-js is a node module that allows developers to easily make their website accessible!",
-  "main": "dist/accessible.js",
+  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
@@ -18,9 +18,6 @@
   },
   "keywords": [
     "accessibility"
-  ],
-  "files": [
-    "dist/accessible.js"
   ],
   "author": "Faizaan Chishtie <faizchishtie@gmail.com> (https://github.com/FaizChishtie)",
   "license": "MIT",
@@ -43,11 +40,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "gulp": "^4.0.2",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
-    "readable-stream": "^3.4.0",
     "vinyl-source-stream": "2.0.0"
   },
   "bin": {
@@ -56,7 +50,6 @@
   "dependencies": {
     "incremental-dom": "^0.6.0",
     "jsdom": "^15.1.1",
-    "readline-sync": "^1.4.9",
     "yargs": "^13.3.0"
   }
 }
