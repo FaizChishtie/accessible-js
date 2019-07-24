@@ -50,6 +50,7 @@
   "dependencies": {
     "incremental-dom": "^0.6.0",
     "jsdom": "^15.1.1",
+    "readline-sync": "^1.4.9",
     "yargs": "^13.3.0"
   }
 }
